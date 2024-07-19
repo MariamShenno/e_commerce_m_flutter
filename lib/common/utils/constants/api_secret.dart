@@ -1,0 +1,76 @@
+// /* -- LIST OF Constants used in APIs -- */
+
+//const String secretAPIKey = "";
+class AppLink {
+  static const String server = "http://127.0.0.1/e_commerce_m_php";
+
+//************************** Notification*****************************//
+  static const String notification = "$server/notification.php";
+
+  static const String imageststatic =
+      "https:/ecmariam.infinityfreeapp.com/e_commerce/upload";
+
+//************************** Image*****************************//
+  static const String imagestCategories = "$imageststatic/categories";
+  static const String imagestItems = "$imageststatic/items";
+
+//**************************Auth*****************************//
+
+  static const String signUp = "$server/auth/signup.php";
+  static const String login = "$server/auth/login.php";
+  static const String verfiyCode = "$server/auth/verifycode.php";
+  static const String resendCode = "$server/auth/resend.php";
+  static const String forgetPassword = "$server/auth/forgetpassword.php";
+  static const String resetPassword = "$server/auth/resetpassword.php";
+
+//**************************Home*****************************//
+
+  static const String homepage = "$server/home.php";
+
+//**************************Items*****************************//
+
+  static const String items = "$server/items/items.php";
+  static const String searchitems = "$server/items/search.php";
+
+//**************************Favorite*****************************//
+
+  static const String favoriteAdd = "$server/favorite/add.php";
+  static const String favoriteRemove = "$server/favorite/remove.php";
+  static const String favoriteView = "$server/favorite/view.php";
+  static const String deletefromfavroite =
+      "$server/favorite/deletefromfavroite.php";
+
+  //**************************Cart*****************************//
+
+  static const String cartview = "$server/cart/view.php";
+  static const String cartadd = "$server/cart/add.php";
+  static const String cartdelete = "$server/cart/delete.php";
+  static const String cartgetcountitems = "$server/cart/getcountitems.php";
+
+  //**************************Address*****************************//
+
+  static const String addresstview = "$server/address/view.php";
+  static const String addressAdd = "$server/address/add.php";
+  static const String addressDelete = "$server/address/delete.php";
+  static const String addressEdit = "$server/address/edit.php";
+
+  //**************************Coupon*****************************//
+
+  static const String checkcoupon = "$server/coupon/checkcoupon.php";
+
+  //**************************Checkout*****************************//
+
+  static const String checkout = "$server/orders/checkout.php";
+  static const String ordersarchive = "$server/orders/archive.php";
+  static const String ordersdelete = "$server/orders/delete.php";
+  static const String ordersdetails = "$server/orders/details.php";
+  static const String pendingorders = "$server/orders/pending.php";
+
+  //**************************Offers*****************************//
+
+  static const String offers = "$server/offers.php";
+
+  //**************************Rating*****************************//
+
+  static const String rating = "$server/rating.php";
+}
