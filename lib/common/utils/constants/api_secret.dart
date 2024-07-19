@@ -8,7 +8,7 @@ class AppLink {
   static const String notification = "$server/notification.php";
 
   static const String imageststatic =
-      "https:/ecmariam.infinityfreeapp.com/e_commerce/upload";
+      "";
 
 //************************** Image*****************************//
   static const String imagestCategories = "$imageststatic/categories";
