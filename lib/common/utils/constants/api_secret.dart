@@ -2,7 +2,7 @@
 
 //const String secretAPIKey = "";
 class AppLink {
-  static const String server = "http://127.0.0.1/e_commerce_m_php";
+  static const String server = "";
 
 //************************** Notification*****************************//
   static const String notification = "$server/notification.php";
